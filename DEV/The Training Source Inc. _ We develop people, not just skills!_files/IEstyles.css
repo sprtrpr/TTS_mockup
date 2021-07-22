@@ -1,0 +1,60 @@
+/* IE 9 & 10 STYLES */
+@media screen and (min-width:0\0) {
+    .navbar-nav{height:45px\9;} /* backslash-9 removes ie11+ & old Safari 4 */
+    
+    .navbar-default .navbar-nav > li > a{ padding:12px\9;} 
+    
+    #menu-item-34 a {
+		border-bottom: 0px solid #799a48\9;
+		border-left: 0px solid transparent\9;
+		height: auto\9;
+		line-height: 20px\9;
+		padding-top: 12px\9;
+		margin-top: 0\9;
+		text-align:right;
+		background-color:transparent\9;
+		padding-left:55px\9;
+		background: url("http://www.thetrainingsource.org/wp2015/wp-content/themes/bootstrap-basic/images/nav_supportbkgd.jpg") no-repeat center left\9;
+}
+#menu-item-34 a:hover, #menu-item-34 a:focus {background-color:transparent\9;}
+ 
+#menu-item-34.active a {background-color:transparent\9;}
+}
+
+/* IE 11 STYLES */
+
+@media (min-width: 768px) {
+
+    _:-ms-lang(x), .navbar-nav { height:45px; }
+}
+@media (min-width: 768px) {
+}
+@media (max-width: 767px) {
+ _:-ms-lang(x), #menu-item-34 a {
+		background-color:#799a48;
+		background: none;
+}  
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 768px) {
+  _:-ms-lang(x), .navbar-default .navbar-nav > li > a { padding:12px; }
+
+ _:-ms-lang(x), #menu-item-34 a {
+		border-bottom: 0px solid #799a48;
+		border-left: 0px solid transparent;
+		height: auto;
+		line-height: 20px;
+		padding-top: 12px;
+		margin-top: 0;
+		text-align:right;
+		background-color:transparent;
+		padding-left:55px;
+		background: url("http://www.thetrainingsource.org/wp2015/wp-content/themes/bootstrap-basic/images/nav_supportbkgd.jpg") no-repeat center left;
+}
+ _:-ms-lang(x), #menu-item-34 a:hover, #menu-item-34 a:focus {background-color:transparent;}
+ 
+ _:-ms-lang(x), #menu-item-34.active a {background-color:transparent;}
+}
